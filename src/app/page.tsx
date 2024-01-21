@@ -58,12 +58,12 @@ export default function Home() {
       <header className="px-4 md:px-[2%] pt-7 fixed z-30 w-full bg-gradient-to-b from-black">
         <div className="hidden sm:block z-100">
           <nav className="text-2xl py-5">
-            <div className="inline-block pe-8 active hover:line-through">
-              <a href="">Portfolio</a>
-            </div>
-            <div className="inline-block hover:line-through">
-              <a href="">About Me</a>
-            </div>
+            <Link href="/" className="inline-block pe-8 active hover:line-through">
+              Portfolio
+            </Link>
+            <Link href="/about" className="inline-block hover:line-through">
+              About Me
+            </Link>
           </nav>
         </div>
         <div className="block sm:hidden z-100">
@@ -95,7 +95,7 @@ export default function Home() {
                   style={{ transitionDelay: `${150 + 1 * 25}ms` }}
                 >
                   <Link
-                    href=""
+                    href="/"
                     className="flex justify-center w-full pb-8 hover:line-through"
                   >
                     Portfolio
@@ -106,7 +106,7 @@ export default function Home() {
                   style={{ transitionDelay: `${150 + 1 * 25}ms` }}
                 >
                   <Link
-                    href=""
+                    href="/about"
                     className="flex justify-center w-full hover:line-through"
                   >
                     About Me
@@ -208,7 +208,7 @@ export default function Home() {
       <section className="px-4 md:px-[2%] text-center py-7">
         <a
           onClick={scrollToTop}
-          className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white hidden md:block"
+          className="fixed bottom-[3%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white"
         >
           <img src="./arrow.svg" alt="" width={32} />
         </a>
