@@ -19,7 +19,7 @@ export default function About() {
                 <br />
                 <br />
                 <span className="text-yellow-400">My work</span> focuses on
-                developing <span className="text-yellow-400">Web</span> and{" "}
+                developing <span className="text-yellow-400">Websites</span> and{" "}
                 <span className="text-yellow-400">Mobile Applications</span>,
                 concurrently, I served as a{" "}
                 <span className="text-yellow-400">Lead Instructor</span> at{" "}
