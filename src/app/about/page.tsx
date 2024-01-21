@@ -11,7 +11,7 @@ export default function About() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="container mx-auto" style={{ maxWidth: "1000px" }}>
-            <img src="/ziady-portrait.jpg" />
+            <img src="/static/ziady-portrait.jpg" />
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
                 Hello! I'm Ziady Mubaraq, a Software Engineer based in{" "}
@@ -19,16 +19,16 @@ export default function About() {
                 <br />
                 <br />
                 <span className="text-yellow-400">My work</span> focuses on
-                developing <span className="text-yellow-400">web</span> and{" "}
-                <span className="text-yellow-400">mobile applications</span>,
+                developing <span className="text-yellow-400">Web</span> and{" "}
+                <span className="text-yellow-400">Mobile Applications</span>,
                 concurrently, I served as a{" "}
-                <span className="text-yellow-400">lead instructor</span> at{" "}
+                <span className="text-yellow-400">Lead Instructor</span> at{" "}
                 Hacktiv8 before
                 <br />
                 <br />
                 In addition, I am a graduate of the{" "}
-                <span className="text-yellow-400">Apple Developer Academy</span>,
-                where I deepened my knowledge in various Apple frameworks and
+                <span className="text-yellow-400">Apple Developer Academy</span>
+                , where I deepened my knowledge in various Apple frameworks and
                 tech stacks as an{" "}
                 <span className="text-yellow-400">iOS Engineer</span>
                 <br />

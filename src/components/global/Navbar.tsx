@@ -22,7 +22,11 @@ export default function Navbar() {
   }
 
   return (
-    <header className="px-4 md:px-[2%] pt-7 fixed z-30 w-full">
+    <header
+      className={`px-4 md:px-[2%] pt-7 fixed z-30 w-full ${
+        isMenuOpen && "bg-black"
+      }`}
+    >
       <div className="hidden sm:block z-100">
         <nav className="text-2xl py-5">
           {routes.map((item, index) => {
@@ -86,7 +90,7 @@ export default function Navbar() {
         onClick={scrollToTop}
         className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white shadow-md"
       >
-        <img src="./arrow.svg" alt="" width={32} />
+        <img src="/arrow.svg" alt="" width={32} />
       </a>
     </header>
   );

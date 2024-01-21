@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import Navbar from "@/components/global/Navbar";
+import { projects } from "@/data/content/projects";
 
 export default function Home() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -56,83 +57,31 @@ export default function Home() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="grid sm:grid-cols-2 gap-2">
-            <a className="relative cursor-pointer" href="">
-              <div className="relative">
-                <img src="/riot-boardgame.png" />
-              </div>
-              <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                <div className="flex items-center h-full w-full relative">
-                  <div className="flex items-center relative px-[8%] w-full">
-                    <div className="text-center uppercase w-full text-2xl text-white">
-                      Riot Hybrid Boardgame
+            {projects.map((item, index) => {
+              return (
+                <a className="relative cursor-pointer" href={`projects/${item.path}`}>
+                  <div className="relative">
+                    <img src={item.img[0]} />
+                  </div>
+                  <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
+                    <div className="flex items-center h-full w-full relative">
+                      <div className="flex items-center relative px-[8%] w-full">
+                        <div className="text-center uppercase w-full text-2xl text-white">
+                          {item.title}
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </a>
-            <a className="relative cursor-pointer" href="">
-              <div className="relative">
-                <img src="/riot-boardgame.png" />
-              </div>
-              <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                <div className="flex items-center h-full w-full relative">
-                  <div className="flex items-center relative px-[8%] w-full">
-                    <div className="text-center uppercase w-full text-2xl text-white">
-                      Riot Hybrid Boardgame
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a className="relative cursor-pointer" href="">
-              <div className="relative">
-                <img src="/riot-boardgame.png" />
-              </div>
-              <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                <div className="flex items-center h-full w-full relative">
-                  <div className="flex items-center relative px-[8%] w-full">
-                    <div className="text-center uppercase w-full text-2xl text-white">
-                      Riot Hybrid Boardgame
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a className="relative cursor-pointer" href="">
-              <div className="relative">
-                <img src="/riot-boardgame.png" />
-              </div>
-              <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                <div className="flex items-center h-full w-full relative">
-                  <div className="flex items-center relative px-[8%] w-full">
-                    <div className="text-center uppercase w-full text-2xl text-white">
-                      Riot Hybrid Boardgame
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a className="relative cursor-pointer" href="">
-              <div className="relative">
-                <img src="/riot-boardgame.png" />
-              </div>
-              <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                <div className="flex items-center h-full w-full relative">
-                  <div className="flex items-center relative px-[8%] w-full">
-                    <div className="text-center uppercase w-full text-2xl text-white">
-                      Riot Hybrid Boardgame
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
+                </a>
+              );
+            })}
           </div>
         </main>
       </section>
       <section className="px-4 md:px-[2%] text-center py-7">
         <footer>
           <div className="flex flex-col items-center justify-center ">
-            <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
+            <div className="inline-flex items-center uppercase text-xs md:text-sm font-bold tracking-widest">
               Made with{" "}
               <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
                 <span>
@@ -141,8 +90,8 @@ export default function Home() {
                       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                     }
                     alt="ReactJS"
-                    width={30}
-                    height={30}
+                    width={32}
+                    height={32}
                   />
                   <span className="sr-only">React</span>
                 </span>
@@ -152,8 +101,8 @@ export default function Home() {
                       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                     }
                     alt="NextJS"
-                    width={50}
-                    height={30}
+                    width={55}
+                    height={32}
                     className="invert"
                   />
                   <span className="sr-only">NextJS</span>
@@ -164,8 +113,8 @@ export default function Home() {
                       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                     }
                     alt="TailwindCSS"
-                    width={30}
-                    height={30}
+                    width={32}
+                    height={32}
                   />
                   <span className="sr-only">TailwindCSS</span>
                 </span>
