@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, JSX, SVGProps } from "react";
 import { animateScroll } from "react-scroll";
 import Link from "next/link";
+import Riot from "../portfolio/riot-hybrid-boardgame/page";
 
 export default function About() {
   const scrollToTop = () => {
@@ -97,33 +98,16 @@ export default function About() {
       <div className="placeholder h-[100px] opacity-0"></div>
       <section className="md:px-[2%] relative z-20">
         <main>
-          <div className="container mx-auto" style={{ maxWidth: "1000px" }}>
-            <img src="/ziady-portrait.jpg" />
-            <div className="text-white px-4 md:px-0">
-              <p className="text-xl md:text-3xl py-10">
-                Hello! I'm Ziady Mubaraq, a Software Engineer based in Jakarta
-                <br />
-                <br />
-                My work focuses on developing web and mobile applications,
-                concurrently, I served as a lead instructor at Hacktiv8 before
-                <br />
-                <br />
-                In addition, I am a graduate of the Apple Developer Academy,
-                where I deepened my knowledge in various Apple frameworks and
-                tech stacks as an iOS Engineer
-                <br />
-                <br />
-                Let's connect at ziterz@icloud.com
-              </p>
-            </div>
-          </div>
-          <a
-            onClick={scrollToTop}
-            className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white hidden md:block"
-          >
-            <img src="./arrow.svg" alt="" width={32} />
-          </a>
+          <Riot />
         </main>
+      </section>
+      <section>
+        <a
+          onClick={scrollToTop}
+          className="fixed bottom-[3%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white"
+        >
+          <img src="./arrow.svg" alt="" width={32} />
+        </a>
       </section>
     </>
   );

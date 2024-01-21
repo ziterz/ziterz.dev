@@ -55,7 +55,7 @@ export default function Home() {
 
   return (
     <>
-      <header className="px-4 md:px-[2%] pt-7 fixed z-30 w-full bg-gradient-to-b from-black">
+      <header className="px-4 md:px-[2%] pt-7 fixed z-30 w-full">
         <div className="hidden sm:block z-100">
           <nav className="text-2xl py-5">
             <Link href="/" className="inline-block pe-8 active hover:line-through">
