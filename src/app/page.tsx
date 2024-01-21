@@ -59,9 +59,21 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-2">
             {projects.map((item, index) => {
               return (
-                <a className="relative cursor-pointer" href={`projects/${item.path}`} key={index}>
+                <a
+                  className="relative cursor-pointer"
+                  href={`projects/${item.path}`}
+                  key={index}
+                >
                   <div className="relative">
-                    <img src={item.img[0]} />
+                    <Image
+                      key={index}
+                      src={item.img[0]}
+                      alt={item.title}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      width={0}
+                      height={0}
+                    />
                   </div>
                   <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
                     <div className="flex items-center h-full w-full relative">

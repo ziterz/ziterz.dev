@@ -11,7 +11,7 @@ export default function About() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="container mx-auto" style={{ maxWidth: "1000px" }}>
-            <img src="/static/ziady-portrait.jpg" />
+            <Image src={"/static/ziady-portrait.jpg"} alt={"Ziady Mubaraq"} sizes="100vw" style={{ width: '100%', height: 'auto' }} width={0} height={0} />
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
                 Hello! I'm Ziady Mubaraq, a Software Engineer based in{" "}

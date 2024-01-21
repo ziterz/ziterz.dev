@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, JSX, SVGProps } from "react";
 import { animateScroll } from "react-scroll";
 import { routes } from "@/data/global";
@@ -90,7 +91,12 @@ export default function Navbar() {
         onClick={scrollToTop}
         className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white shadow-md"
       >
-        <img src="/arrow.svg" alt="" width={32} />
+        <Image
+          src={"/arrow.svg"}
+          alt={"Scroll to top"}
+          width={32}
+          height={32}
+        />
       </a>
     </header>
   );
