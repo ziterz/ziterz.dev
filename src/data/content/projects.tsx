@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: 0,
     path: "riot-boardgame",
-    title: "",
+    title: "Riot Hybrid Boardgame",
     desc: "<span class='text-yellow-400'>Riot Hybrid Boardgame</span> is a hybrid board game with a native iOS companion app that integrates physical and digital elements using NFC technology for interactions.",
     img: ["/static/riot-boardgame.png", "/static/riot-boardgame.png", "/static/riot-boardgame.png"],
     tags: ["React", "NextJS", "TailwindCSS", "CSS", "Firebase"],

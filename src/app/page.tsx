@@ -59,7 +59,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-2">
             {projects.map((item, index) => {
               return (
-                <a className="relative cursor-pointer" href={`projects/${item.path}`}>
+                <a className="relative cursor-pointer" href={`projects/${item.path}`} key={index}>
                   <div className="relative">
                     <img src={item.img[0]} />
                   </div>

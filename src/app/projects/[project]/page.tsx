@@ -13,10 +13,10 @@ export default function Page({ params }: { params: { project: string } }) {
         <main>
           <div className="container mx-auto" style={{ maxWidth: "800px" }}>
             <div className="text-white px-4 md:px-0">
-              <p className="text-xl md:text-3xl py-10">{project?.title}</p>
-            </div>
-            <div className="text-white px-4 md:px-0">
-              <p className="text-xl md:text-3xl py-10" dangerouslySetInnerHTML={{ __html: project?.desc ?? '' }}></p>
+              <p
+                className="text-xl md:text-3xl py-10"
+                dangerouslySetInnerHTML={{ __html: project?.desc ?? "" }}
+              ></p>
             </div>
           </div>
           <div className="grid grid-rows-1 gap-3 md:gap-6 py-6">
