@@ -23,11 +23,10 @@ export default function Riot() {
         </div>
       </div>
       <div className="grid grid-rows-1 gap-3 md:gap-6">
-        <img src="/riot-boardgame.png" />
-        <img src="/riot-boardgame.png" />
-        <img src="/riot-boardgame.png" />
-        <img src="/riot-boardgame.png" />
-        <img src="/riot-boardgame.png" />
+        <img className=" w-full" src="/riot-boardgame.png" />
+        <img className=" w-full" src="/riot-boardgame.png" />
+        <img className=" w-full" src="/riot-boardgame.png" />
+        <img className=" w-full" src="/riot-boardgame.png" />
       </div>
     </>
   );

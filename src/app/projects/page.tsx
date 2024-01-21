@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, JSX, SVGProps } from "react";
 import { animateScroll } from "react-scroll";
 import Link from "next/link";
-import Riot from "../portfolio/riot-hybrid-boardgame/page";
+import Riot from "./riot/page";
 
 export default function About() {
   const scrollToTop = () => {
@@ -37,7 +37,7 @@ export default function About() {
               href="/"
               className="inline-block pe-8 active hover:line-through"
             >
-              Portfolio
+              Projects
             </Link>
             <Link href="/about" className="inline-block hover:line-through">
               About Me
@@ -76,7 +76,7 @@ export default function About() {
                     href="/"
                     className="flex justify-center w-full pb-8 hover:line-through"
                   >
-                    Portfolio
+                    Projects
                   </Link>
                 </li>
                 <li
