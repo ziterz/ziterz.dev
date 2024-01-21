@@ -94,7 +94,10 @@ export default function Home() {
                   className="text-gray-100 text-2xl"
                   style={{ transitionDelay: `${150 + 1 * 25}ms` }}
                 >
-                  <Link href="" className="flex justify-center w-full pb-8 hover:line-through">
+                  <Link
+                    href=""
+                    className="flex justify-center w-full pb-8 hover:line-through"
+                  >
                     Portfolio
                   </Link>
                 </li>
@@ -102,7 +105,10 @@ export default function Home() {
                   className="text-gray-100 text-2xl"
                   style={{ transitionDelay: `${150 + 1 * 25}ms` }}
                 >
-                  <Link href="" className="flex justify-center w-full hover:line-through">
+                  <Link
+                    href=""
+                    className="flex justify-center w-full hover:line-through"
+                  >
                     About Me
                   </Link>
                 </li>
@@ -212,27 +218,36 @@ export default function Home() {
               Made with{" "}
               <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
                 <span>
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                    width="30"
-                    title="React"
+                  <Image
+                    src={
+                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    }
+                    alt="ReactJS"
+                    width={30}
+                    height={30}
                   />
                   <span className="sr-only">React</span>
                 </span>
                 <span>
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-                    width="42"
+                  <Image
+                    src={
+                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+                    }
+                    alt="NextJS"
+                    width={50}
+                    height={30}
                     className="invert"
-                    title="NextJS"
                   />
                   <span className="sr-only">NextJS</span>
                 </span>
                 <span>
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                    width="30"
-                    title="TailwindCSS"
+                  <Image
+                    src={
+                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                    }
+                    alt="TailwindCSS"
+                    width={30}
+                    height={30}
                   />
                   <span className="sr-only">TailwindCSS</span>
                 </span>
