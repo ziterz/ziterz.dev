@@ -14,7 +14,7 @@ export default function About() {
             <Image src={"/static/ziady-portrait.jpg"} alt={"Ziady Mubaraq"} sizes="100vw" style={{ width: '100%', height: 'auto' }} width={0} height={0} />
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I'm Ziady Mubaraq, a Software Engineer based in{" "}
+                Hello! I&apos;m Ziady Mubaraq, a Software Engineer based in{" "}
                 <span className="text-yellow-400">Jakarta</span>
                 <br />
                 <br />
@@ -33,7 +33,7 @@ export default function About() {
                 <span className="text-yellow-400">iOS Engineer</span>
                 <br />
                 <br />
-                Let's connect at{" "}
+                Let&apos;s connect at{" "}
                 <span className="text-yellow-400">ziterz@icloud.com</span>
               </p>
             </div>

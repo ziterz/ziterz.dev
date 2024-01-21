@@ -49,7 +49,7 @@ export default function Home() {
       >
         <div className="text-white text-3xl md:text-7xl max-w-6xl h-[55vh] flex items-center">
           <p className="leading-tight">
-            Hello! I'm Ziady Mubaraq — Software Engineer, Passionate Educator ↓
+            Hello! I&apos;m Ziady Mubaraq — Software Engineer, Passionate Educator ↓
           </p>
         </div>
       </section>
