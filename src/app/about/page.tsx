@@ -4,7 +4,6 @@ import Image from "next/image";
 import Navbar from "@/components/global/Navbar";
 
 export default function About() {
-
   return (
     <>
       <Navbar />
@@ -15,80 +14,32 @@ export default function About() {
             <img src="/ziady-portrait.jpg" />
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I'm Ziady Mubaraq, a Software Engineer based in Jakarta
+                Hello! I'm Ziady Mubaraq, a Software Engineer based in{" "}
+                <span className="text-yellow-400">Jakarta</span>
                 <br />
                 <br />
-                My work focuses on developing web and mobile applications,
-                concurrently, I served as a lead instructor at Hacktiv8 before
+                <span className="text-yellow-400">My work</span> focuses on
+                developing <span className="text-yellow-400">web</span> and{" "}
+                <span className="text-yellow-400">mobile applications</span>,
+                concurrently, I served as a{" "}
+                <span className="text-yellow-400">lead instructor</span> at{" "}
+                Hacktiv8 before
                 <br />
                 <br />
-                In addition, I am a graduate of the Apple Developer Academy,
+                In addition, I am a graduate of the{" "}
+                <span className="text-yellow-400">Apple Developer Academy</span>,
                 where I deepened my knowledge in various Apple frameworks and
-                tech stacks as an iOS Engineer
+                tech stacks as an{" "}
+                <span className="text-yellow-400">iOS Engineer</span>
                 <br />
                 <br />
-                Let's connect at ziterz@icloud.com
+                Let's connect at{" "}
+                <span className="text-yellow-400">ziterz@icloud.com</span>
               </p>
             </div>
           </div>
         </main>
       </section>
     </>
-  );
-}
-
-function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      className="h-10 w-10 absolute text-gray-100"
-      width="20"
-      height="20"
-      viewBox="0 0 20 20"
-      fill="none"
-      {...props}
-    >
-      <path
-        d="M2.5 5.5H17.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M2.5 10.5H17.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M2.5 15.5H17.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function CrossIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      className="h-10 w-10 absolute text-gray-100"
-      viewBox="0 0 24 24"
-      width="24"
-      height="24"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      fill="none"
-      shapeRendering="geometricPrecision"
-      {...props}
-    >
-      <path d="M18 6L6 18" />
-      <path d="M6 6l12 12" />
-    </svg>
   );
 }
