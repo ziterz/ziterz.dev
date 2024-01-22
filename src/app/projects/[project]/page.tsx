@@ -3,9 +3,16 @@
 import Navbar from "@/components/global/Navbar";
 import Image from "next/image";
 import { projects } from "@/data/content/projects";
+import { useState, useEffect } from 'react'
 
 export default function Page({ params }: { params: { project: string } }) {
   const project = projects.find((item) => item.path === params.project);
+  const [isClient, setIsClient] = useState(false)
+ 
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
   return (
     <>
       <Navbar />
@@ -16,7 +23,7 @@ export default function Page({ params }: { params: { project: string } }) {
             <div className="text-white px-4 md:px-0">
               <p
                 className="text-xl md:text-3xl py-10"
-                dangerouslySetInnerHTML={{ __html: project?.desc ?? "" }}
+                dangerouslySetInnerHTML={{ __html: isClient ? project?.desc ?? "" : "" }}
               ></p>
             </div>
           </div>
@@ -35,7 +42,7 @@ export default function Page({ params }: { params: { project: string } }) {
           </div>
           <div className="container mx-auto" style={{ maxWidth: "800px" }}>
             <div className="text-white px-4 md:px-0">
-              <p className="text-xl md:text-3xl py-10">{project?.footer}</p>
+              <p className="text-xl md:text-3xl py-10">{isClient ? project?.footer : ""}</p>
             </div>
           </div>
         </main>

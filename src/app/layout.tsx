@@ -33,7 +33,7 @@ export default function RootLayout({
           sizes="16x16"
           href="/static/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/static/favicon/site.webmanifest" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
         <meta name="title" content="Ziady Mubaraq" />
         <meta name="description" content="Software Engineer, Passionate Educator" />
 
