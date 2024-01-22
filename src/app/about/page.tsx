@@ -37,6 +37,7 @@ export default function About() {
                 <span className="text-yellow-400">ziterz@icloud.com</span>
                 {/* <span className="hidden text-sky-400"></span> */}
                 {/* <span className="hidden text-orange-400"></span> */}
+                {/* <span className="hidden text-red-600"></span> */}
               </p>
             </div>
           </div>

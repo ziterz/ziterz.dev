@@ -21,4 +21,14 @@ export const projects: Project[] = [
     tags: ["Android Studio", "Java", "Kotlin", "RxJava", "Firebase", "OneSignal"],
     footer: "Role: Lead Mobile Developer"
   },
+  {
+    id: 2,
+    path: "jastipinaja",
+    title: "JastipinAja",
+    desc: "<span class='text-red-600'>Jastipinaja</span> is an application that is intended for users who miss their regional food in the pandemic era, with same-day delivery between cities. Collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, and Project Managers in a team called Icecape.id.",
+    thumbnail: "/static/jastipinaja-thumb.jpeg",
+    img: ["/static/jastipinaja.jpeg"],
+    tags: ["React", "React Native", "Paper", "Firebase", "OneSignal", "Midtrans Payment"],
+    footer: "Role: Mobile Developer"
+  },
 ];
