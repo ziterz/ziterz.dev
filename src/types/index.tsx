@@ -3,6 +3,7 @@ export type Project = {
   path: string;
   title: string;
   desc: string;
+  thumbnail: string;
   img: string[];
   tags: string[];
   footer: string;

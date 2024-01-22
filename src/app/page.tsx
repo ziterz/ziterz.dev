@@ -67,7 +67,7 @@ export default function Home() {
                   <div className="relative">
                     <Image
                       key={index}
-                      src={item.img[0]}
+                      src={item.thumbnail}
                       alt={item.title}
                       sizes="100vw"
                       style={{ width: "100%", height: "auto" }}
