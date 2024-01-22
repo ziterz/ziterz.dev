@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import Navbar from "@/components/global/Navbar";
 import { projects } from "@/data/content/projects";
+import Link from "next/link";
 
 export default function Home() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -59,7 +60,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-2">
             {projects.map((item, index) => {
               return (
-                <a
+                <Link
                   className="relative cursor-pointer"
                   href={`projects/${item.path}`}
                   key={index}
@@ -84,7 +85,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
               );
             })}
           </div>
