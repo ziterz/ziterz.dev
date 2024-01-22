@@ -35,9 +35,9 @@ export default function About() {
                 <br />
                 Let&apos;s connect at{" "}
                 <span className="text-yellow-400">ziterz@icloud.com</span>
-                {/* <span className="hidden text-sky-400"></span> */}
-                {/* <span className="hidden text-orange-400"></span> */}
-                {/* <span className="hidden text-red-600"></span> */}
+                {/* <span className="hidden text-blue-500"></span> */}
+                {/* <span className="hidden text-orange-500"></span> */}
+                {/* <span className="hidden text-red-500"></span> */}
               </p>
             </div>
           </div>
