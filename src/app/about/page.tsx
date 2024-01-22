@@ -26,7 +26,7 @@ export default function About() {
                 Hacktiv8 before
                 <br />
                 <br />
-                In addition, I am a graduate of the{" "}
+                In addition, I&apos;m a graduate of the{" "}
                 <span className="text-yellow-400">Apple Developer Academy</span>
                 , where I deepened my knowledge in various Apple frameworks and
                 tech stacks as an{" "}
