@@ -19,14 +19,14 @@ export default function About() {
                 <br />
                 <br />
                 <span className="text-yellow-400">My work</span> focuses on
-                developing <span className="text-yellow-400">Websites</span> and{" "}
-                <span className="text-yellow-400">Mobile Applications</span>,
-                concurrently, I served as a{" "}
+                developing <span className="text-yellow-400">websites</span> and{" "}
+                <span className="text-yellow-400">mobile applications</span>.
+                Concurrently, I served as a{" "}
                 <span className="text-yellow-400">Lead Instructor</span> at{" "}
-                Hacktiv8 before
+                Hacktiv8
                 <br />
                 <br />
-                In addition, I&apos;m a graduate of the{" "}
+                Additionally, I&apos;m a graduate of the{" "}
                 <span className="text-yellow-400">Apple Developer Academy</span>
                 , where I deepened my knowledge in various Apple frameworks and
                 tech stacks as an{" "}
@@ -35,6 +35,8 @@ export default function About() {
                 <br />
                 Let&apos;s connect at{" "}
                 <span className="text-yellow-400">ziterz@icloud.com</span>
+                {/* <span className="hidden text-sky-400"></span> */}
+                {/* <span className="hidden text-orange-400"></span> */}
               </p>
             </div>
           </div>
