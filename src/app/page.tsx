@@ -61,11 +61,11 @@ export default function Home() {
             {projects.map((item, index) => {
               return (
                 <Link
-                  className="relative cursor-pointer"
+                  className="relative"
                   href={`projects/${item.path}`}
                   key={index}
                 >
-                  <div className="relative">
+                  <div className="relative cursor-pointer">
                     <Image
                       key={index}
                       src={item.thumbnail}
