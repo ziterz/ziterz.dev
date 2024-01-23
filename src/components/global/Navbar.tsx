@@ -35,12 +35,20 @@ export default function Navbar() {
               <Link
                 key={index}
                 href={item.path}
-                className="inline-block pe-8 active hover:line-through"
+                className="inline-block pe-8 hover:line-through"
               >
                 {item.title}
               </Link>
             );
           })}
+          <a
+            target="_blank"
+            href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+            rel="noopener noreferrer"
+            className="inline-block hover:line-through"
+          >
+            Resume
+          </a>
         </nav>
       </div>
       <div className="block sm:hidden z-100">
@@ -83,6 +91,19 @@ export default function Navbar() {
                   </li>
                 );
               })}
+              <li
+                className="text-gray-100 text-2xl"
+                style={{ transitionDelay: `${150 + 1 * 25}ms` }}
+              >
+                <a
+                  target="_blank"
+                  href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+                  rel="noopener noreferrer"
+                  className="flex justify-center w-full pb-8 hover:line-through"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           )}
         </nav>
