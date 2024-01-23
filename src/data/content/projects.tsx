@@ -2,10 +2,20 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: 5,
+    path: "mech-kit",
+    title: "MechKit (2023)",
+    desc: "<span class='text-neutral-400 font-medium'>MechKit</span> is an iPadOS application for realistically designing mechanical keyboards in 3D and Augmented Reality.",
+    thumbnail: "/static/mech-kit-thumb.jpeg",
+    img: ["/static/mech-kit.jpeg"],
+    tags: ["Xcode", "UIKit", "SwiftUI", "ARKit", "RealityKit", "SceneKit", "AVFoundation", "Swift"],
+    footer: "Role: iOS Developer, UI Designer, Project Manager"
+  },
+  {
     id: 4,
     path: "the-academy-times",
     title: "The Academy Times (2023)",
-    desc: "<span class='text-neutral-400 font-medium'>The Academy Times</span>, an iOS app that brings your local newspaper to life using the power of ARKit.",
+    desc: "<span class='text-neutral-400 font-medium'>The Academy Times</span>, an iOS app that brings your local newspaper to life using the power of ARKit",
     thumbnail: "/static/the-academy-times-thumb.jpeg",
     img: ["/static/the-academy-times.jpeg"],
     tags: ["Xcode", "UIKit", "SceneKit", "ARKit", "AVFoundation", "Swift"],
@@ -22,7 +32,7 @@ export const projects: Project[] = [
     footer: "Role: Front-End Developer"
   },
   {
-    id: 32,
+    id: 2,
     path: "speed-online",
     title: "Speed Online (2022)",
     desc: "<span class='text-blue-500'>Speed Online</span> is an application for ordering tickets for ship crossings in North Kalimantan. Collaborate with Back End Developer, UI Designer, System Analyst, and Project Manager.<br><br><li>Using Vue 3 and Quasar in app development</li><li>Using Vuex for state management</li><li>Using Google Maps API for location tracking</li><li>Using Xendit API for payment gateway</li><li>Using OTP API for WhatsApp number verification</li><li>Using QR Code Scanner for ticket validation</li>",
