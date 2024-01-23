@@ -31,4 +31,14 @@ export const projects: Project[] = [
     tags: ["React", "React Native", "Paper", "Firebase", "OneSignal", "Midtrans Payment"],
     footer: "Role: Mobile Developer"
   },
+  {
+    id: 2,
+    path: "hcis-imeco",
+    title: "HCIS Imeco (2023)",
+    desc: "<span class='text-emerald-500'>HCIS</span> (Human Capital Information System) is an application for a company with features such as detailed employee data, company branch data, employee salaries, attendance, and company requirements.",
+    thumbnail: "/static/hcis-thumb.jpeg",
+    img: ["/static/hcis.jpeg"],
+    tags: ["Vue 3", "Pinia", "Vite", "ChartJS", "Google Maps", "CK Editor", "Axios", "TailwindCSS"],
+    footer: "Role: Front-End Developer"
+  },
 ];
