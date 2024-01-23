@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import Navbar from "@/components/global/Navbar";
 import { projects } from "@/data/content/projects";
 import Link from "next/link";
+import { Image } from "@nextui-org/react";
 
 export default function Home() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -50,7 +50,8 @@ export default function Home() {
       >
         <div className="text-white text-3xl md:text-7xl max-w-6xl h-[55vh] flex items-center">
           <p className="leading-tight">
-            Hello! I&apos;m Ziady Mubaraq — Software Engineer, Passionate Educator ↓
+            Hello! I&apos;m Ziady Mubaraq — Software Engineer, Passionate
+            Educator ↓
           </p>
         </div>
       </section>
@@ -58,36 +59,26 @@ export default function Home() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="grid sm:grid-cols-2 gap-2">
-            {projects.map((item, index) => {
-              return (
-                <Link
-                  className="relative"
-                  href={`projects/${item.path}`}
-                  key={index}
-                >
-                  <div className="relative cursor-pointer">
+              {projects.map((item, index) => {
+                return (
+                  <Link
+                    className="relative"
+                    href={`projects/${item.path}`}
+                    key={index}
+                  >
                     <Image
-                      key={index}
+                      className="cursor-pointer"
+                      isZoomed
                       src={item.thumbnail}
                       alt={item.title}
                       sizes="100vw"
                       style={{ width: "100%", height: "auto" }}
-                      width={0}
-                      height={0}
+                      radius="none"
+                      loading="lazy"
                     />
-                  </div>
-                  <div className="bg-black w-full absolute h-full top-0 bg-opacity-0 hover:bg-opacity-40 py-[8%] opacity-0 hover:opacity-100 transition-all">
-                    <div className="flex items-center h-full w-full relative">
-                      <div className="flex items-center relative px-[8%] w-full">
-                        <div className="text-center uppercase w-full text-2xl text-white">
-                          {item.title}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+                  </Link>
+                );
+              })}
           </div>
         </main>
       </section>

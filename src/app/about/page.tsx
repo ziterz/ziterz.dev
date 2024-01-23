@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Navbar from "@/components/global/Navbar";
+import { Image } from "@nextui-org/react";
 
 export default function About() {
   return (
@@ -11,7 +11,15 @@ export default function About() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="container mx-auto" style={{ maxWidth: "1000px" }}>
-            <Image src={"/static/ziady.jpg"} alt={"Ziady Mubaraq"} sizes="100vw" style={{ width: '100%', height: 'auto' }} width={0} height={0} />
+            <Image
+              src={"/static/ziady.jpg"}
+              alt={"Ziady Mubaraq"}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto" }}
+              radius="none"
+              loading="lazy"
+            />
+
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
                 Hello! I&apos;m Ziady Mubaraq, a Software Engineer based in{" "}

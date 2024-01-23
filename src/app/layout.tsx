@@ -19,19 +19,19 @@ export default function RootLayout({
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/static/favicon/apple-touch-icon.png"
+        href="/favicon/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/static/favicon/favicon-32x32.png"
+        href="/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/static/favicon/favicon-16x16.png"
+        href="/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <meta name="title" content="Ziady Mubaraq" />
@@ -47,10 +47,7 @@ export default function RootLayout({
         property="og:description"
         content="Software Engineer, Passionate Educator"
       />
-      <meta
-        property="og:image"
-        content="https://ziterz.dev/static/ziady.jpg"
-      />
+      <meta property="og:image" content="https://ziterz.dev/static/ziady.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://ziterz.dev/" />
