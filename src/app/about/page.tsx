@@ -47,6 +47,7 @@ export default function About() {
                 {/* <span className="hidden text-orange-500"></span> */}
                 {/* <span className="hidden text-red-500"></span> */}
                 {/* <span className="hidden text-emerald-500"></span> */}
+                {/* <span className="hidden text-neutral-400"></span> */}
               </p>
             </div>
           </div>
