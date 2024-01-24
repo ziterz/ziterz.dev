@@ -59,7 +59,7 @@ export default function Home() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="grid sm:grid-cols-2 gap-2">
-              {projects.map((item, index) => {
+            {projects.slice(0).reverse().map((item, index) => {
                 return (
                   <Link
                     className="relative"
