@@ -106,11 +106,12 @@ export const projects: Project[] = [
     title: "Riot Hybrid Boardgame (2023)",
     desc: "<span class='text-pink-500 font-medium'>Riot Board Game</span> is a 4-player hybrid board battle game between Citizens and Cyborgs. Secure victory by outlasting, with a thrilling blended physical & digital play experience supported by NFC.",
     thumbnail: "/static/riot-boardgame-thumb.jpeg",
-    img: ["/static/riot-boardgame.jpeg"],
+    img: ["/static/riot-boardgame-1.jpeg", "/static/riot-boardgame-2.jpeg", "/static/riot-boardgame-3.jpeg", "/static/riot-boardgame-4.jpeg",  "/static/riot-boardgame-5.jpeg",  "/static/riot-boardgame-6.jpeg"],
     tags: ["Xcode", "SwiftUI", "CoreNFC", "AVKit", "Swift"],
     footer: "<span class='text-pink-500 font-medium'>Role:</span><br/>Lead iOS Developer, UI Designer, Artwork Creator<br/><br/>"
-    + "<span class='text-pink-500 font-medium'>Responsibilities:</span><br/><li>Create, develop, and balance game mechanics for a board game by experimenting with various popular and widely played board games.</li><li>Design artwork for various elements in the physical board game components, including the logo, role tokens, weapon card artwork, and character artwork, using Adobe Photoshop and Adobe Illustrator.</li><li>Create UI design by harmonizing and enhancing the elegance of the artwork for a game interface using Adobe Illustrator and Figma.</li><li>Develop a game by slicing the UI using SwiftUI and leveraging NFC technology through CoreNFC to integrate physical game components with the digital app.</li><br/><br/>"
+    + "<span class='text-pink-500 font-medium'>Responsibilities:</span><br/><li>Create, develop, and balance game mechanics for a board game by experimenting with various popular and widely played board games.</li><li>Design artwork for various elements in the physical board game components, including the logo, role tokens, weapon card artwork, and character artwork, using Adobe Photoshop and Adobe Illustrator.</li><li>Create UI design by harmonizing and enhancing the elegance of the artwork for a game interface using Adobe Illustrator and Figma.</li><li>Develop a game by slicing the UI using SwiftUI and leveraging NFC technology through CoreNFC to integrate physical game components with the digital app.</li><br/>"
     + "<span class='text-pink-500 font-medium'>Tech stacks:</span><br/>Swift, SwiftUI, CoreNFC, AVKit, MVVM Design Pattern.<br/><br/>"
+    + "<span class='text-pink-500 font-medium'>Artwork & design tools:</span><br/>Figma, Adobe Illustrator, Adobe Photoshop.<br/><br/>"
     + "<span class='text-pink-500 font-medium'>Achievements:</span><br/><li>Successfully submitted the Riot Hybrid Board game to the App Store.</li><li>Enhanced user experience in playing the hybrid board game through three iterations in the game development.</li><li>Creating a replayable hybrid board game.</li>"
   }
 ];

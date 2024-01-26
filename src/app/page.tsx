@@ -1,61 +1,16 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
 import Navbar from "@/components/global/Navbar";
+import Hero from "@/components/home/Hero";
 import { projects } from "@/data/content/projects";
 import Link from "next/link";
 import { Image } from "@nextui-org/react";
 
 export default function Home() {
-  const headerRef = useRef<HTMLDivElement>(null);
-  const [opacity, setOpacity] = useState(1);
-
-  useEffect(() => {
-    return function cleanup() {
-      document.body.style.overflow = "";
-    };
-  }, []);
-
-  useEffect(() => {
-    const headerHeight = (headerRef.current as HTMLElement)?.clientHeight;
-    const range = 200;
-    const offset = headerHeight / 2;
-
-    const didScrollPage = () => {
-      let calc = 1 - (window.scrollY - offset + range) / range;
-
-      if (calc > 1) {
-        calc = 1;
-      } else if (calc < 0) {
-        calc = 0;
-      }
-
-      setOpacity(calc);
-    };
-
-    window.addEventListener("scroll", didScrollPage);
-
-    return () => {
-      window.removeEventListener("keydown", didScrollPage);
-    };
-  }, []);
-
   return (
     <>
       <Navbar />
-      <section
-        className="px-4 md:px-[2%] fixed mt-8 z-20"
-        ref={headerRef}
-        style={{ opacity: opacity }}
-      >
-        <div className="text-white text-3xl md:text-7xl max-w-6xl h-[55vh] flex items-center">
-          <p className="leading-tight">
-            Hello! I&apos;m Ziady Mubaraq — Software Engineer, Passionate
-            Educator ↓
-          </p>
-        </div>
-      </section>
-      <div className="placeholder h-[55vh] opacity-0"></div>
+      <Hero />
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="grid sm:grid-cols-2 gap-2">
