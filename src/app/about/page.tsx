@@ -43,7 +43,33 @@ export default function About() {
                 <br />
                 <br />
                 Let&apos;s connect at{" "}
-                <span className="text-yellow-400">ziterz@icloud.com</span>
+                <a href="mailto:ziterz@icloud.com" target="_blank" className="text-yellow-400 hover:line-through">
+                ziterz@icloud.com
+                  </a>
+                <br />
+                <br />
+                Follow me on{" "}
+                <span>
+                  <a href="https://github.com/ziterz" target="_blank" className="text-yellow-400 hover:line-through">
+                    GitHub
+                  </a>
+                  ,{" "}
+                  <a href="https://leetcode.com/ziterz" target="_blank" className="text-yellow-400 hover:line-through">
+                    LeetCode
+                  </a>
+                  ,{" "}
+                  <a
+                    href="https://www.codewars.com/users/ziterz"
+                    target="_blank"
+                    className="text-yellow-400 hover:line-through"
+                  >
+                    Codewars
+                  </a>
+                  , and{" "}
+                  <a href="https://www.linkedin.com/in/ziterz" target="_blank" className="text-yellow-400 hover:line-through">
+                    LinkedIn
+                  </a>
+                </span>
                 {/* <span className="hidden text-blue-500"></span> */}
                 {/* <span className="hidden text-orange-500"></span> */}
                 {/* <span className="hidden text-red-500"></span> */}
