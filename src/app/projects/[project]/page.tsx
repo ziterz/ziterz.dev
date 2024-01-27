@@ -31,11 +31,28 @@ export default function Page({ params }: { params: { project: string } }) {
               {project?.appstore ? (
                 <a
                   target="_blank"
-                  href="https://apps.apple.com/id/app/riot-board-game/id6470334811"
+                  href={project?.appstore}
                   rel="noopener noreferrer"
                 >
                   <Image
                     src={"/appstore.svg"}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto", cursor: "pointer" }}
+                    radius="none"
+                    loading="lazy"
+                  />
+                </a>
+              ) : (
+                <></>
+              )}
+              {project?.testflight ? (
+                <a
+                  target="_blank"
+                  href={project?.testflight}
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/testflight.svg"}
                     sizes="100vw"
                     style={{ width: "100%", height: "auto", cursor: "pointer" }}
                     radius="none"
