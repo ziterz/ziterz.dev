@@ -81,6 +81,11 @@ body {
   opacity: 1;
 }
 
+.content div {
+  margin-top: 1em;
+  display: block;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

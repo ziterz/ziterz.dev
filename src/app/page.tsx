@@ -14,7 +14,10 @@ export default function Home() {
       <section className="md:px-[2%] relative z-20">
         <main>
           <div className="grid sm:grid-cols-2 gap-2">
-            {projects.slice(0).reverse().map((item, index) => {
+            {projects
+              .slice(0)
+              .reverse()
+              .map((item, index) => {
                 return (
                   <Link
                     className="relative"
@@ -22,12 +25,14 @@ export default function Home() {
                     key={index}
                   >
                     <Image
-                      className="cursor-pointer"
                       isZoomed
+                      className="cursor-pointer"
                       src={item.thumbnail}
                       alt={item.title}
                       sizes="100vw"
                       style={{ width: "100%", height: "auto" }}
+                      width={0}
+                      height={0}
                       radius="none"
                       loading="lazy"
                     />
