@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Navbar from "@/components/global/Navbar";
 import { Image } from "@nextui-org/react";
@@ -12,14 +12,15 @@ export default function About() {
         <main>
           <div className="container mx-auto" style={{ maxWidth: "1000px" }}>
             <Image
-              src={"/static/ziady.jpg"}
-              alt={"Ziady Mubaraq"}
-              sizes="100vw"
+              src={"https://ik.imagekit.io/ziterz/ziady.jpg"}
+              alt="Ziady Mubaraq"
               style={{ width: "100%", height: "auto" }}
+              sizes="100vw"
+              width={0}
+              height={0}
               radius="none"
               loading="lazy"
             />
-
             <div className="text-white px-4 md:px-0">
               <p className="text-xl md:text-3xl py-10">
                 Hello! I&apos;m Ziady Mubaraq, a Software Engineer based in{" "}
@@ -48,7 +49,7 @@ export default function About() {
                 {/* <span className="hidden text-red-500"></span> */}
                 {/* <span className="hidden text-emerald-500"></span> */}
                 {/* <span className="hidden text-neutral-400"></span> */}
-                {/* <span className="hidden text-pink-500"></span> */}
+                {/* <span className="hidden text-pink-500 list-inside list-disc"></span> */}
               </p>
             </div>
           </div>

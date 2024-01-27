@@ -23,103 +23,106 @@ export default function Navbar() {
   }
 
   return (
-    <header
-      className={`px-4 md:px-[2%] pt-7 fixed z-30 w-full ${
-        isMenuOpen && "bg-black"
-      }`}
-    >
-      <div className="hidden sm:block z-100">
-        <nav className="text-2xl py-5">
-          {routes.map((item, index) => {
-            return (
-              <Link
-                key={index}
-                href={item.path}
-                className="inline-block pe-8 hover:line-through"
-              >
-                {item.title}
-              </Link>
-            );
-          })}
-          <a
-            target="_blank"
-            href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
-            rel="noopener noreferrer"
-            className="inline-block hover:line-through"
-          >
-            Resume
-          </a>
-        </nav>
-      </div>
-      <div className="block sm:hidden z-100">
-        <nav className="text-2xl">
-          <div
-            className={`w-full justify-between flex items-center ${
-              isMenuOpen && "bg-bg"
-            } p-5`}
-            style={{ zIndex: 101 }}
-          >
-            <div></div>
-            <button
-              className="burger visible md:hidden"
-              aria-label="Toggle menu"
-              type="button"
-              onClick={toggleMenu}
-            >
-              <MenuIcon data-hide={isMenuOpen} />
-              <CrossIcon data-hide={!isMenuOpen} />
-            </button>
-          </div>
-          {isMenuOpen && (
-            <ul
-              className={`menu flex flex-col absolute bg-black
-            ${isMenuOpen && "menuRendered"}`}
-            >
-              {routes.map((item, index) => {
-                return (
-                  <li
-                    key={index}
-                    className="text-gray-100 text-2xl"
-                    style={{ transitionDelay: `${150 + 1 * 25}ms` }}
-                  >
-                    <Link
-                      href={item.path}
-                      className="flex justify-center w-full pb-8 hover:line-through"
-                    >
-                      {item.title}
-                    </Link>
-                  </li>
-                );
-              })}
-              <li
-                className="text-gray-100 text-2xl"
-                style={{ transitionDelay: `${150 + 1 * 25}ms` }}
-              >
-                <a
-                  target="_blank"
-                  href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
-                  rel="noopener noreferrer"
-                  className="flex justify-center w-full pb-8 hover:line-through"
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
-          )}
-        </nav>
-      </div>
-      <a
-        onClick={scrollToTop}
-        className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white shadow-md"
+    <>
+      <div></div>
+      <header
+        className={`px-4 md:px-[2%] pt-7 fixed z-30 w-full ${
+          isMenuOpen && "bg-black"
+        }`}
       >
-        <Image
-          src={"/arrow.svg"}
-          alt={"Scroll to top"}
-          width={32}
-          height={32}
-        />
-      </a>
-    </header>
+        <div className="hidden sm:block z-100">
+          <nav className="text-2xl py-5">
+            {routes.map((item, index) => {
+              return (
+                <Link
+                  key={index}
+                  href={item.path}
+                  className="inline-block pe-8 hover:line-through"
+                >
+                  {item.title}
+                </Link>
+              );
+            })}
+            <a
+              target="_blank"
+              href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+              rel="noopener noreferrer"
+              className="inline-block hover:line-through"
+            >
+              Resume
+            </a>
+          </nav>
+        </div>
+        <div className="block sm:hidden z-100">
+          <nav className="text-2xl">
+            <div
+              className={`w-full justify-between flex items-center ${
+                isMenuOpen && "bg-bg"
+              } p-5`}
+              style={{ zIndex: 101 }}
+            >
+              <div></div>
+              <button
+                className="burger visible md:hidden"
+                aria-label="Toggle menu"
+                type="button"
+                onClick={toggleMenu}
+              >
+                <MenuIcon data-hide={isMenuOpen} />
+                <CrossIcon data-hide={!isMenuOpen} />
+              </button>
+            </div>
+            {isMenuOpen && (
+              <ul
+                className={`menu flex flex-col absolute bg-black
+            ${isMenuOpen && "menuRendered"}`}
+              >
+                {routes.map((item, index) => {
+                  return (
+                    <li
+                      key={index}
+                      className="text-gray-100 text-2xl"
+                      style={{ transitionDelay: `${150 + 1 * 25}ms` }}
+                    >
+                      <Link
+                        href={item.path}
+                        className="flex justify-center w-full pb-8 hover:line-through"
+                      >
+                        {item.title}
+                      </Link>
+                    </li>
+                  );
+                })}
+                <li
+                  className="text-gray-100 text-2xl"
+                  style={{ transitionDelay: `${150 + 1 * 25}ms` }}
+                >
+                  <a
+                    target="_blank"
+                    href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+                    rel="noopener noreferrer"
+                    className="flex justify-center w-full pb-8 hover:line-through"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>
+            )}
+          </nav>
+        </div>
+        <a
+          onClick={scrollToTop}
+          className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white shadow-md"
+        >
+          <Image
+            src={"/arrow.svg"}
+            alt={"Scroll to top"}
+            width={32}
+            height={32}
+          />
+        </a>
+      </header>
+    </>
   );
 }
 
