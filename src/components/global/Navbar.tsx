@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState, JSX, SVGProps } from "react";
 import { animateScroll } from "react-scroll";
 import { routes } from "@/data/global";
+import { useEffect } from "react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +22,12 @@ export default function Navbar() {
       document.body.style.overflow = "hidden";
     }
   }
+
+  useEffect(() => {
+    return function cleanup() {
+      document.body.style.overflow = "";
+    };
+  }, []);
 
   return (
     <>

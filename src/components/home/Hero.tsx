@@ -5,12 +5,6 @@ export default function Hero() {
   const [opacity, setOpacity] = useState(1);
 
   useEffect(() => {
-    return function cleanup() {
-      document.body.style.overflow = "";
-    };
-  }, []);
-
-  useEffect(() => {
     const headerHeight = (headerRef.current as HTMLElement)?.clientHeight;
     const range = 200;
     const offset = headerHeight / 2;
