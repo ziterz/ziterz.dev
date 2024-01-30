@@ -57,14 +57,6 @@ export default function About() {
                   <a href="https://leetcode.com/ziterz" target="_blank" className="text-yellow-400 hover:line-through">
                     LeetCode
                   </a>
-                  ,{" "}
-                  <a
-                    href="https://www.codewars.com/users/ziterz"
-                    target="_blank"
-                    className="text-yellow-400 hover:line-through"
-                  >
-                    Codewars
-                  </a>
                   , and{" "}
                   <a href="https://www.linkedin.com/in/ziterz" target="_blank" className="text-yellow-400 hover:line-through">
                     LinkedIn
