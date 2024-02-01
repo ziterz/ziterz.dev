@@ -44,7 +44,9 @@ export const projects: Project[] = [
     desc: "<span class='text-cyan-400 font-medium'>The Academy Times</span>, an iOS app that brings your local newspaper to life using the power of ARKit",
     thumbnail: "https://ik.imagekit.io/ziterz/the-academy-times-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/the-academy-times.jpeg"],
-    footer: "Role: iOS Developer"
+    footer: "Role: iOS Developer",
+    testflight: "https://testflight.apple.com/join/rdEhc3Hk",
+    newspaper: "https://ziterz.github.io/the-academy-times/ar-newspaper.pdf"
   },
   {
     id: 5,

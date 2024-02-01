@@ -11,4 +11,5 @@ export type Project = {
   github?: string;
   appstore?: string;
   testflight?: string;
+  newspaper?: string;
 };
