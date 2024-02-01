@@ -28,8 +28,10 @@ export default function Page({ params }: { params: { project: string } }) {
                   __html: isClient ? project?.desc ?? "" : ""
                 }}
               ></p>
+              <div className="flex gap-2">
               {project?.appstore ? (
                 <a
+                  className="cursor-pointer"
                   target="_blank"
                   href={project?.appstore}
                   rel="noopener noreferrer"
@@ -47,6 +49,7 @@ export default function Page({ params }: { params: { project: string } }) {
               )}
               {project?.testflight ? (
                 <a
+                  className="cursor-pointer"
                   target="_blank"
                   href={project?.testflight}
                   rel="noopener noreferrer"
@@ -62,6 +65,25 @@ export default function Page({ params }: { params: { project: string } }) {
               ) : (
                 <></>
               )}
+              {project?.newspaper ? (
+                <a
+                  className="cursor-pointer"
+                  target="_blank"
+                  href={project?.newspaper}
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/newspaper.svg"}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto", cursor: "pointer" }}
+                    radius="none"
+                    loading="lazy"
+                  />
+                </a>
+              ) : (
+                <></>
+              )}
+              </div>
             </div>
           </div>
           <div className="grid grid-rows-1 gap-3 md:gap-6 py-6">
