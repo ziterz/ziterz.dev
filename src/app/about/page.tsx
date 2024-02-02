@@ -44,7 +44,7 @@ export default function About() {
                 <br />
                 Let&apos;s connect at{" "}
                 <a href="mailto:ziady.mubaraq@gmail.com" target="_blank" className="text-yellow-400 hover:line-through">
-                ziterz@icloud.com
+                ziady.mubaraq@gmail.com
                   </a>
                 <br />
                 <br />
