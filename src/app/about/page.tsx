@@ -43,7 +43,7 @@ export default function About() {
                 <br />
                 <br />
                 Let&apos;s connect at{" "}
-                <a href="mailto:ziterz@icloud.com" target="_blank" className="text-yellow-400 hover:line-through">
+                <a href="mailto:ziady.mubaraq@gmail.com" target="_blank" className="text-yellow-400 hover:line-through">
                 ziterz@icloud.com
                   </a>
                 <br />
