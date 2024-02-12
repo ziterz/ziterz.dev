@@ -10,6 +10,7 @@ export type Project = {
   link?: string;
   github?: string;
   appstore?: string;
+  googleplay?: string;
   testflight?: string;
   newspaper?: string;
 };

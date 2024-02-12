@@ -8,7 +8,8 @@ export const projects: Project[] = [
     desc: "<span class='text-orange-500'>Dicicilaja</span> application have downloaded more than 100K+ in play store, collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, QA Engineers, and Project Managers to create multi-functional products, with 6 financing products such as Multi-Purpose Fund, Maxi Travel, Maxi Edukasi, Maxi Usaha, and Maxi Sehat.",
     thumbnail: "https://ik.imagekit.io/ziterz/dicicil-aja-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/dicicil-aja.jpeg"],
-    footer: "Role: Lead Mobile Developer"
+    footer: "Role: Lead Mobile Developer",
+    googleplay: "https://play.google.com/store/apps/details?id=com.dicicilaja.app"
   },
   {
     id: 1,
@@ -17,7 +18,8 @@ export const projects: Project[] = [
     desc: "<span class='text-red-500'>Jastipinaja</span> is an application that is intended for users who miss their regional food in the pandemic era, with same-day delivery between cities. Collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, and Project Managers in a team called Icecape.id.",
     thumbnail: "https://ik.imagekit.io/ziterz/jastipin-aja-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/jastipin-aja.jpeg"],
-    footer: "Role: Mobile Developer"
+    footer: "Role: Mobile Developer",
+    googleplay: "https://play.google.com/store/apps/details?id=com.jastip"
   },
   {
     id: 2,
@@ -26,7 +28,8 @@ export const projects: Project[] = [
     desc: "<span class='text-blue-500'>Speed Online</span> is an application for ordering tickets for ship crossings in North Kalimantan. Collaborate with Back End Developer, UI Designer, System Analyst, and Project Manager.<br><br><li>Using Vue 3 and Quasar in app development</li><li>Using Vuex for state management</li><li>Using Google Maps API for location tracking</li><li>Using Xendit API for payment gateway</li><li>Using OTP API for WhatsApp number verification</li><li>Using QR Code Scanner for ticket validation</li>",
     thumbnail: "https://ik.imagekit.io/ziterz/speed-online-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/speed-online.jpeg"],
-    footer: "Role: Mobile Developer"
+    footer: "Role: Mobile Developer",
+    googleplay: "https://play.google.com/store/apps/details?id=com.speedonline"
   },
   {
     id: 3,
