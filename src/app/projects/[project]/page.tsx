@@ -65,6 +65,24 @@ export default function Page({ params }: { params: { project: string } }) {
               ) : (
                 <></>
               )}
+              {project?.googleplay ? (
+                <a
+                  className="cursor-pointer"
+                  target="_blank"
+                  href={project?.googleplay}
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={"/googleplay.png"}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "45px", cursor: "pointer" }}
+                    radius="none"
+                    loading="lazy"
+                  />
+                </a>
+              ) : (
+                <></>
+              )}
               {project?.newspaper ? (
                 <a
                   className="cursor-pointer"
