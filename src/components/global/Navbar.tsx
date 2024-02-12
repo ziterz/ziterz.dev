@@ -52,7 +52,7 @@ export default function Navbar() {
             })}
             <a
               target="_blank"
-              href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+              href="https://ziterz.github.io/resume-latex/resume.pdf"
               rel="noopener noreferrer"
               className="inline-block hover:line-through"
             >
@@ -106,7 +106,7 @@ export default function Navbar() {
                 >
                   <a
                     target="_blank"
-                    href="https://ziterz.github.io/resume/ZiadyMubaraq.pdf"
+                    href="https://ziterz.github.io/resume-latex/resume.pdf"
                     rel="noopener noreferrer"
                     className="flex justify-center w-full pb-8 hover:line-through"
                   >
