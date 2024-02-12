@@ -39,7 +39,7 @@ export default function Page({ params }: { params: { project: string } }) {
                   <Image
                     src={"/appstore.svg"}
                     sizes="100vw"
-                    style={{ width: "100%", height: "auto", cursor: "pointer" }}
+                    style={{ width: "100%", height: "40px", cursor: "pointer" }}
                     radius="none"
                     loading="lazy"
                   />
@@ -57,7 +57,7 @@ export default function Page({ params }: { params: { project: string } }) {
                   <Image
                     src={"/testflight.svg"}
                     sizes="100vw"
-                    style={{ width: "100%", height: "auto", cursor: "pointer" }}
+                    style={{ width: "100%", height: "40px", cursor: "pointer" }}
                     radius="none"
                     loading="lazy"
                   />
@@ -75,7 +75,7 @@ export default function Page({ params }: { params: { project: string } }) {
                   <Image
                     src={"/newspaper.svg"}
                     sizes="100vw"
-                    style={{ width: "100%", height: "auto", cursor: "pointer" }}
+                    style={{ width: "100%", height: "40px", cursor: "pointer" }}
                     radius="none"
                     loading="lazy"
                   />
