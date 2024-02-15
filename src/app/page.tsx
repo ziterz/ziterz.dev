@@ -50,35 +50,31 @@ export default function Home() {
               <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
                 <span>
                   <Image
-                    src={
-                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                    }
+                    src={"/react.svg"}
                     alt="ReactJS"
                     width={32}
                     height={32}
+                    radius="none"
                   />
                   <span className="sr-only">React</span>
                 </span>
                 <span>
                   <Image
-                    src={
-                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-                    }
+                    src={"/next.svg"}
                     alt="NextJS"
                     width={55}
                     height={32}
-                    className="invert"
+                    radius="none"
                   />
                   <span className="sr-only">NextJS</span>
                 </span>
                 <span>
                   <Image
-                    src={
-                      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                    }
+                    src={"/tailwindcss.svg"}
                     alt="TailwindCSS"
                     width={32}
                     height={32}
+                    radius="none"
                   />
                   <span className="sr-only">TailwindCSS</span>
                 </span>

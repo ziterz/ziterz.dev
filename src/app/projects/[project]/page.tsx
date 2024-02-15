@@ -73,9 +73,9 @@ export default function Page({ params }: { params: { project: string } }) {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src={"/googleplay.png"}
+                    src={"/googleplay.svg"}
                     sizes="100vw"
-                    style={{ width: "100%", height: "45px", cursor: "pointer" }}
+                    style={{ width: "100%", height: "40px", cursor: "pointer" }}
                     radius="none"
                     loading="lazy"
                   />
