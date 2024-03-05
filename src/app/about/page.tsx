@@ -21,9 +21,9 @@ export default function About() {
               radius="none"
               loading="lazy"
             />
-            <div className="text-white px-4 md:px-0">
+            <div className="text-white px-2 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I&apos;m Ziady Mubaraq, a Software Engineer based in{" "}
+                Hello! I&apos;m Ziady Mubaraq, a Front End Engineer based in{" "}
                 <span className="text-yellow-400">Jakarta</span>
                 <br />
                 <br />
@@ -31,15 +31,15 @@ export default function About() {
                 developing <span className="text-yellow-400">websites</span> and{" "}
                 <span className="text-yellow-400">mobile applications</span>.
                 Concurrently, I served as a{" "}
-                <span className="text-yellow-400">Lead Instructor</span> at{" "}
+                <span className="text-yellow-400">Lead Full-Stack JavaScript Instructor</span> at{" "}
                 Hacktiv8
                 <br />
                 <br />
-                Additionally, I&apos;m a graduate of the{" "}
+                I&apos;m a graduate of the{" "}
                 <span className="text-yellow-400">Apple Developer Academy</span>
                 , where I deepened my knowledge in various Apple frameworks and
-                tech stacks as an{" "}
-                <span className="text-yellow-400">iOS Engineer</span>
+                tech stacks in{" "}
+                <span className="text-yellow-400">iOS Development</span>
                 <br />
                 <br />
                 Let&apos;s connect at{" "}

@@ -34,10 +34,9 @@ export default function Hero() {
         ref={headerRef}
         style={{ opacity: opacity }}
       >
-        <div className="text-white text-3xl md:text-7xl max-w-5xl h-[55vh] flex items-center">
+        <div className="text-white text-3xl md:text-7xl max-w-[70%] h-[55vh] flex items-center">
           <p className="leading-tight">
-            Hello! I&apos;m Ziady Mubaraq — Software Engineer, Passionate
-            Educator ↓
+            Hello! I&apos;m Ziady Mubaraq &mdash; Front End Engineer, Educator ↓
           </p>
         </div>
       </section>
