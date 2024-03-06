@@ -34,7 +34,7 @@ export default function Hero() {
         ref={headerRef}
         style={{ opacity: opacity }}
       >
-        <div className="text-white text-3xl md:text-7xl max-w-[60%] h-[55vh] flex items-center">
+        <div className="text-white text-3xl md:text-7xl lg:max-w-[60%] h-[55vh] flex items-center">
           <p className="leading-tight">
             Hello! I&apos;m Ziady Mubaraq &mdash; Front End Engineer, Educator ↓
           </p>
