@@ -23,6 +23,16 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    path: "flona-store",
+    title: "Flona Store (2022)",
+    desc: "<span class='text-emerald-500'>Flona Store</span> is an application for houseplant commerce with global shipping and eco-friendly practices for healthy plants and community engagement.",
+    thumbnail: "https://ik.imagekit.io/ziterz/flona-thumb.jpeg",
+    img: ["https://ik.imagekit.io/ziterz/flona.jpeg"],
+    footer: "Role: Front End Developer",
+    link: "https://flona.store/"
+  },
+  {
+    id: 3,
     path: "speed-online",
     title: "Speed Online (2022)",
     desc: "<span class='text-blue-500'>Speed Online</span> is an application for ordering tickets for ship crossings in North Kalimantan. Collaborate with Back End Developer, UI Designer, System Analyst, and Project Manager.<br><br><li>Using Vue 3 and Quasar in app development</li><li>Using Vuex for state management</li><li>Using Google Maps API for location tracking</li><li>Using Xendit API for payment gateway</li><li>Using OTP API for WhatsApp number verification</li><li>Using QR Code Scanner for ticket validation</li>",
@@ -32,16 +42,16 @@ export const projects: Project[] = [
     googleplay: "https://play.google.com/store/apps/details?id=com.speedonline"
   },
   {
-    id: 3,
+    id: 4,
     path: "hcis-imeco",
     title: "HCIS Imeco (2023)",
     desc: "<span class='text-emerald-500'>HCIS</span> (Human Capital Information System) is an application for a company with features such as detailed employee data, company branch data, employee salaries, attendance, and company requirements.",
     thumbnail: "https://ik.imagekit.io/ziterz/hcis-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/hcis.jpeg"],
-    footer: "Role: Front-End Developer"
+    footer: "Role: Front End Developer"
   },
   {
-    id: 4,
+    id: 5,
     path: "the-academy-times",
     title: "The Academy Times (2023)",
     desc: "<span class='text-cyan-400 font-medium'>The Academy Times</span>, an iOS app that brings your local newspaper to life using the power of ARKit",
@@ -52,7 +62,7 @@ export const projects: Project[] = [
     newspaper: "https://ziterz.github.io/the-academy-times/ar-newspaper.pdf"
   },
   {
-    id: 5,
+    id: 6,
     path: "mech-kit",
     title: "MechKit (2023)",
     desc: "<span class='text-orange-400 font-medium'>MechKit</span> is an iPadOS app designed exclusively for mechanical keyboard enthusiasts. Dive into the world of personalized keyboards like never before with Augmented Reality (AR) technology. With MechKit, you can visualize and customize your dream mechanical keyboard right on your iPad screen.",
@@ -72,7 +82,7 @@ export const projects: Project[] = [
     testflight: "https://testflight.apple.com/join/WLCYBHGd"
   },
   {
-    id: 5,
+    id: 7,
     path: "riot-boardgame",
     title: "Riot Hybrid Boardgame (2023)",
     desc: "<span class='text-pink-500 font-medium'>Riot Board Game</span> is a 4-player hybrid board battle game between Citizens and Cyborgs. Secure victory by outlasting, with a thrilling blended physical & digital play experience supported by NFC.",
