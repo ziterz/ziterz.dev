@@ -25,7 +25,7 @@ export const projects: Project[] = [
     id: 2,
     path: "flona-store",
     title: "Flona Store (2022)",
-    desc: "<span class='text-emerald-500'>Flona Store</span> is an application for houseplant commerce with global shipping and eco-friendly practices for healthy plants and community engagement.",
+    desc: "<span class='text-green-400'>Flona Store</span> is an application for houseplant commerce with global shipping and eco-friendly practices for healthy plants and community engagement.</br></br><a href='https://flona.store/' target='_blank' class='text-green-400 font-medium'>https://flona.store/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/flona-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/flona.jpeg"],
     footer: "Role: Front End Developer",
@@ -45,10 +45,11 @@ export const projects: Project[] = [
     id: 4,
     path: "hcis-imeco",
     title: "HCIS Imeco (2023)",
-    desc: "<span class='text-emerald-500'>HCIS</span> (Human Capital Information System) is an application for a company with features such as detailed employee data, company branch data, employee salaries, attendance, and company requirements.",
+    desc: "<span class='text-emerald-500'>HCIS</span> (Human Capital Information System) is an application for a company with features such as detailed employee data, company branch data, employee salaries, attendance, and company requirements. </br></br><a href='http://hcis-imeco.com/' target='_blank' class='text-emerald-500 font-medium'>http://hcis-imeco.com/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/hcis-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/hcis.jpeg"],
-    footer: "Role: Front End Developer"
+    footer: "Role: Front End Developer",
+    link: "http://hcis-imeco.com/"
   },
   {
     id: 5,
