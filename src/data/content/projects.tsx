@@ -5,11 +5,12 @@ export const projects: Project[] = [
     id: 0,
     path: "dicicilaja",
     title: "Dicicilaja (2019)",
-    desc: "<span class='text-orange-500'>Dicicilaja</span> application have downloaded more than 100K+ in play store, collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, QA Engineers, and Project Managers to create multi-functional products, with 6 financing products such as Multi-Purpose Fund, Maxi Travel, Maxi Edukasi, Maxi Usaha, and Maxi Sehat.",
+    desc: "<span class='text-orange-500'>Dicicilaja</span> application have downloaded more than 100K+ in play store, collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, QA Engineers, and Project Managers to create multi-functional products, with 6 financing products such as Multi-Purpose Fund, Maxi Travel, Maxi Edukasi, Maxi Usaha, and Maxi Sehat. </br></br><a href='https://dicicilaja.com/' target='_blank' class='text-orange-500 font-medium'>https://dicicilaja.com/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/dicicil-aja-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/dicicil-aja.jpeg"],
     footer: "Role: Lead Mobile Developer",
-    googleplay: "https://play.google.com/store/apps/details?id=com.dicicilaja.app"
+    googleplay: "https://play.google.com/store/apps/details?id=com.dicicilaja.app",
+    link: "https://dicicilaja.com/"
   },
   {
     id: 1,
