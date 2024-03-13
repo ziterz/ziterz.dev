@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ziady Mubaraq",
-  description: "Software Engineer, Educator"
+  description: "Full-Stack Engineer, Educator"
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
         <meta name="title" content="Ziady Mubaraq" />
         <meta
           name="description"
-          content="Software Engineer, Educator"
+          content="Full-Stack Engineer, Educator"
         />
 
         <meta property="og:type" content="website" />
@@ -44,7 +44,7 @@ export default function RootLayout({
         <meta property="og:title" content="Ziady Mubaraq" />
         <meta
           property="og:description"
-          content="Software Engineer, Educator"
+          content="Full-Stack Engineer, Educator"
         />
         <meta
           property="og:image"
@@ -56,7 +56,7 @@ export default function RootLayout({
         <meta property="twitter:title" content="Ziady Mubaraq" />
         <meta
           property="twitter:description"
-          content="Software Engineer, Educator"
+          content="Full-Stack Engineer, Educator"
         />
         <meta
           property="twitter:image"
