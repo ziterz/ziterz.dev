@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 0,
     path: "dicicilaja",
     title: "Dicicilaja (2019)",
-    desc: "<span class='text-orange-500'>Dicicilaja</span> application have downloaded more than 100K+ in play store, collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, QA Engineers, and Project Managers to create multi-functional products, with 6 financing products such as Multi-Purpose Fund, Maxi Travel, Maxi Edukasi, Maxi Usaha, and Maxi Sehat. </br></br><a href='https://dicicilaja.com/' target='_blank' class='text-orange-500 font-medium'>https://dicicilaja.com/</a>",
+    desc: "<span class='text-orange-500'>Dicicilaja</span> application have downloaded more than 100K+ in play store, collaborating with Back End Developers, Software Developers, UX Designers, System Analysts, QA Engineers, and Project Managers to create multi-functional products, with 6 financing products such as Multi-Purpose Fund, Maxi Travel, Maxi Edukasi, Maxi Usaha, and Maxi Sehat. </br></br><a href='https://dicicilaja.com/' target='_blank' class='text-orange-500 font-medium'>https://dicicilaja.com/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/dicicil-aja-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/dicicil-aja.jpeg"],
     footer: "Role: Lead Mobile Developer",
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     id: 1,
     path: "jastipinaja",
     title: "Jastipin Aja (2020)",
-    desc: "<span class='text-red-500'>Jastipinaja</span> is an application that is intended for users who miss their regional food in the pandemic era, with same-day delivery between cities. Collaborating with Back End Developers, Front End Developers, UX Designers, System Analysts, and Project Managers in a team called Icecape.id.",
+    desc: "<span class='text-red-500'>Jastipinaja</span> is an application that is intended for users who miss their regional food in the pandemic era, with same-day delivery between cities. Collaborating with Back End Developers, Software Developers, UX Designers, System Analysts, and Project Managers in a team called Icecape.id.",
     thumbnail: "https://ik.imagekit.io/ziterz/jastipin-aja-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/jastipin-aja.jpeg"],
     footer: "Role: Mobile Developer",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     desc: "<span class='text-green-400'>Flona Store</span> is an application for houseplant commerce with global shipping and eco-friendly practices for healthy plants and community engagement.</br></br><a href='https://flona.store/' target='_blank' class='text-green-400 font-medium'>https://flona.store/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/flona-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/flona.jpeg"],
-    footer: "Role: Front End Developer",
+    footer: "Role: Software Developer",
     link: "https://flona.store/"
   },
   {
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     desc: "<span class='text-emerald-500'>HCIS</span> (Human Capital Information System) is an application for a company with features such as detailed employee data, company branch data, employee salaries, attendance, and company requirements. </br></br><a href='http://hcis-imeco.com/' target='_blank' class='text-emerald-500 font-medium'>http://hcis-imeco.com/</a>",
     thumbnail: "https://ik.imagekit.io/ziterz/hcis-thumb.jpeg",
     img: ["https://ik.imagekit.io/ziterz/hcis.jpeg"],
-    footer: "Role: Front End Developer",
+    footer: "Role: Software Developer",
     link: "http://hcis-imeco.com/"
   },
   {
