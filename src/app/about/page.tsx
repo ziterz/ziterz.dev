@@ -23,7 +23,7 @@ export default function About() {
             />
             <div className="text-white px-2 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I&apos;m Ziady Mubaraq, a Front End Engineer based in{" "}
+                Hello! I&apos;m Ziady Mubaraq, a Software Engineer based in{" "}
                 <span className="text-yellow-400">Jakarta</span>
                 <br />
                 <br />
