@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from 'react';
 
 export default function Hero() {
   const headerRef = useRef<HTMLDivElement>(null);
@@ -21,26 +21,26 @@ export default function Hero() {
       setOpacity(calc);
     };
 
-    window.addEventListener("scroll", didScrollPage);
+    window.addEventListener('scroll', didScrollPage);
 
     return () => {
-      window.removeEventListener("keydown", didScrollPage);
+      window.removeEventListener('keydown', didScrollPage);
     };
   }, []);
   return (
     <>
       <section
-        className="px-4 md:px-[2%] fixed mt-8 z-20"
+        className='px-4 md:px-[2%] fixed mt-8 z-20'
         ref={headerRef}
         style={{ opacity: opacity }}
       >
-        <div className="text-white text-3xl md:text-7xl lg:max-w-[65%] h-[55vh] flex items-center">
-          <p className="leading-tight">
-            Hello! I&apos;m Ziady Mubaraq &mdash; Full-Stack Engineer, Educator ↓
+        <div className='text-white text-3xl md:text-7xl lg:max-w-[65%] h-[55vh] flex items-center'>
+          <p className='leading-tight'>
+            Hello! I&apos;m Ziady Mubaraq &mdash; Front End Engineer, Educator ↓
           </p>
         </div>
       </section>
-      <div className="placeholder h-[55vh] opacity-0"></div>
+      <div className='placeholder h-[55vh] opacity-0'></div>
     </>
   );
 }
