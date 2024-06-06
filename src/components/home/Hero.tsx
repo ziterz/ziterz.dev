@@ -36,7 +36,7 @@ export default function Hero() {
       >
         <div className='text-white text-3xl md:text-7xl lg:max-w-[65%] h-[55vh] flex items-center'>
           <p className='leading-tight'>
-            Hello! I&apos;m Ziady Mubaraq &mdash; Front End Engineer, Educator ↓
+            Hello! I&apos;m Ziady Mubaraq &mdash; Fullstack Engineer, Educator ↓
           </p>
         </div>
       </section>

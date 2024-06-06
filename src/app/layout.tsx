@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Ziady Mubaraq',
-  description: 'Front End Engineer, Educator',
+  description: 'Fullstack Engineer, Educator',
 };
 
 export default function RootLayout({
@@ -34,14 +34,14 @@ export default function RootLayout({
         />
         <link rel='manifest' href='/favicon/site.webmanifest' />
         <meta name='title' content='Ziady Mubaraq' />
-        <meta name='description' content='Front End Engineer, Educator' />
+        <meta name='description' content='Fullstack Engineer, Educator' />
 
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://ziterz.dev/' />
         <meta property='og:title' content='Ziady Mubaraq' />
         <meta
           property='og:description'
-          content='Front End Engineer, Educator'
+          content='Fullstack Engineer, Educator'
         />
         <meta
           property='og:image'
@@ -53,7 +53,7 @@ export default function RootLayout({
         <meta property='twitter:title' content='Ziady Mubaraq' />
         <meta
           property='twitter:description'
-          content='Front End Engineer, Educator'
+          content='Fullstack Engineer, Educator'
         />
         <meta
           property='twitter:image'
