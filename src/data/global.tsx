@@ -5,11 +5,11 @@ type Route = {
 
 export const routes: Route[] = [
   {
-    title: "Projects",
-    path: "/"
+    title: 'Projects',
+    path: '/',
   },
   {
-    title: "About",
-    path: "/about"
-  }
+    title: 'About',
+    path: '/about',
+  },
 ];

@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useState, JSX, SVGProps } from "react";
-import { animateScroll } from "react-scroll";
-import { routes } from "@/data/global";
-import { useEffect } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState, JSX, SVGProps } from 'react';
+import { animateScroll } from 'react-scroll';
+import { routes } from '@/data/global';
+import { useEffect } from 'react';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,16 +16,16 @@ export default function Navbar() {
   function toggleMenu() {
     if (isMenuOpen) {
       setIsMenuOpen(false);
-      document.body.style.overflow = "";
+      document.body.style.overflow = '';
     } else {
       setIsMenuOpen(true);
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     }
   }
 
   useEffect(() => {
     return function cleanup() {
-      document.body.style.overflow = "";
+      document.body.style.overflow = '';
     };
   }, []);
 
@@ -34,7 +34,7 @@ export default function Navbar() {
       <div></div>
       <header
         className={`px-4 md:px-[2%] pt-7 fixed z-30 w-full ${
-          isMenuOpen && "bg-black"
+          isMenuOpen && 'bg-black'
         }`}
       >
         <div className="hidden sm:block z-100">
@@ -64,7 +64,7 @@ export default function Navbar() {
           <nav className="text-2xl">
             <div
               className={`w-full justify-between flex items-center ${
-                isMenuOpen && "bg-bg"
+                isMenuOpen && 'bg-bg'
               } p-5`}
               style={{ zIndex: 101 }}
             >
@@ -82,7 +82,7 @@ export default function Navbar() {
             {isMenuOpen && (
               <ul
                 className={`menu flex flex-col absolute bg-black
-            ${isMenuOpen && "menuRendered"}`}
+            ${isMenuOpen && 'menuRendered'}`}
               >
                 {routes.map((item, index) => {
                   return (
@@ -122,8 +122,8 @@ export default function Navbar() {
           className="fixed bottom-[4%] right-[2%] p-3 z-40 cursor-pointer rounded-full bg-white shadow-md"
         >
           <Image
-            src={"/arrow.svg"}
-            alt={"Scroll to top"}
+            src={'/arrow.svg'}
+            alt={'Scroll to top'}
             width={32}
             height={32}
           />

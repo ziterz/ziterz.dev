@@ -30,18 +30,18 @@ export default function Hero() {
   return (
     <>
       <section
-        className='px-4 md:px-[2%] fixed mt-8 z-20'
+        className="px-4 md:px-[2%] fixed mt-8 z-20"
         ref={headerRef}
         style={{ opacity: opacity }}
       >
-        <div className='text-white text-3xl md:text-7xl lg:max-w-[65%] h-[55vh] flex items-center'>
-          <p className='leading-tight'>
+        <div className="text-white text-3xl md:text-7xl lg:max-w-[65%] h-[55vh] flex items-center">
+          <p className="leading-tight">
             Hello! I&apos;m Ziady Mubaraq &mdash; Frontend Engineer, Instructor
             ↓
           </p>
         </div>
       </section>
-      <div className='placeholder h-[55vh] opacity-0'></div>
+      <div className="placeholder h-[55vh] opacity-0"></div>
     </>
   );
 }
