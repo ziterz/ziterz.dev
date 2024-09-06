@@ -17,6 +17,11 @@ const config: Config = {
       prefix: "nextui",
       defaultTheme: "dark"
     })
-  ]
+  ],
+  safelist: [
+    {
+      pattern: /^text-/
+    },
+  ],
 };
 export default config;

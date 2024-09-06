@@ -23,25 +23,26 @@ export default function About() {
             />
             <div className="text-white px-2 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I&apos;m Ziady Mubaraq, a Frontend Engineer based in{' '}
-                <span className="text-yellow-400">Jakarta</span>
+                Hello! I&apos;m Ziady Mubaraq, a <span className="text-yellow-400">Full-Stack Developer</span> based in{' '}
+                <span className="text-yellow-400">Jakarta</span>.
                 <br />
                 <br />
-                <span className="text-yellow-400">My work</span> focuses on
-                developing <span className="text-yellow-400">websites</span> and{' '}
-                <span className="text-yellow-400">mobile applications</span>.
-                Concurrently, I served as a{' '}
-                <span className="text-yellow-400">
-                  Lead Phase Full-Stack JavaScript Instructor
-                </span>{' '}
-                at Hacktiv8
+                Currently, I work at <span className="text-yellow-400"><a
+                    href="https://www.lunash.id/"
+                    target="_blank"
+                    className="text-yellow-400 hover:line-through"
+                  >Lunash</a></span>, focusing on developing web applications. At Lunash, we provide <span className="text-yellow-400">AI-driven debt management solutions</span> to financial institutions in Indonesia of all sizes, including regional and rural banks, P2P lenders, multifinance companies, and debt collection agencies.
                 <br />
                 <br />
-                I&apos;m a graduate of the{' '}
-                <span className="text-yellow-400">Apple Developer Academy</span>
-                , where I deepened my knowledge in various Apple frameworks and
-                tech stacks in{' '}
-                <span className="text-yellow-400">iOS Development</span>
+                Previously, I served as a <span className="text-yellow-400">Lead Phase Full-Stack JavaScript Instructor</span> at <span className="text-yellow-400"><a
+                    href="https://www.hacktiv8.com/"
+                    target="_blank"
+                    className="text-yellow-400 hover:line-through"
+                  >Hacktiv8</a></span> for 3+ years. I&apos;m also a graduate of the <span className="text-yellow-400"><a
+                  href="https://www.hacktiv8.com/"
+                  target="_blank"
+                  className="text-yellow-400 hover:line-through"
+                >Apple Developer Academy</a></span> Cohort 2023, where I gained deep expertise in various Apple frameworks and the Apple ecosystem, particularly in <span className="text-yellow-400">iOS development</span>.
                 <br />
                 <br />
                 Let&apos;s connect at{' '}
@@ -88,15 +89,6 @@ export default function About() {
                     LinkedIn
                   </a>
                 </span>
-                {/* <span className="hidden text-blue-500"></span> */}
-                {/* <span className="hidden text-orange-500"></span> */}
-                {/* <span className="hidden text-red-500"></span> */}
-                {/* <span className="hidden text-emerald-500"></span> */}
-                {/* <span className="hidden text-neutral-400"></span> */}
-                {/* <span className="hidden text-orange-400"></span> */}
-                {/* <span className="hidden text-cyan-400"></span> */}
-                {/* <span className="hidden text-green-400"></span> */}
-                {/* <span className="hidden text-pink-500 list-inside list-disc"></span> */}
               </p>
             </div>
           </div>
