@@ -28,18 +28,18 @@ export default function About() {
                 <br />
                 <br />
                 Currently, I work at <span className="text-yellow-400"><a
-                    href="https://www.lunash.id/"
-                    target="_blank"
-                    className="text-yellow-400 hover:line-through"
-                  >Lunash</a></span>, focusing on developing web applications. At Lunash, we provide <span className="text-yellow-400">AI-driven debt management solutions</span> to financial institutions in Indonesia of all sizes, including regional and rural banks, P2P lenders, multifinance companies, and debt collection agencies.
+                  href="https://www.lunash.id/"
+                  target="_blank"
+                  className="text-yellow-400 hover:line-through"
+                >Lunash</a></span>, focusing on developing web applications. At Lunash, we provide <span className="text-yellow-400">AI-driven debt management solutions</span> to financial institutions in Indonesia of all sizes, including regional and rural banks, P2P lenders, multifinance companies, and debt collection agencies.
                 <br />
                 <br />
                 Previously, I served as a <span className="text-yellow-400">Lead Phase Full-Stack JavaScript Instructor</span> at <span className="text-yellow-400"><a
-                    href="https://www.hacktiv8.com/"
-                    target="_blank"
-                    className="text-yellow-400 hover:line-through"
-                  >Hacktiv8</a></span> for 3+ years. I&apos;m also a graduate of the <span className="text-yellow-400"><a
                   href="https://www.hacktiv8.com/"
+                  target="_blank"
+                  className="text-yellow-400 hover:line-through"
+                >Hacktiv8</a></span> for 3+ years. I&apos;m also a graduate of the <span className="text-yellow-400"><a
+                  href="https://www.developeracademy.infinitelearning.id/"
                   target="_blank"
                   className="text-yellow-400 hover:line-through"
                 >Apple Developer Academy</a></span> Cohort 2023, where I gained deep expertise in various Apple frameworks and the Apple ecosystem, particularly in <span className="text-yellow-400">iOS development</span>.
