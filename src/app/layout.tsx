@@ -35,8 +35,6 @@ export const metadata: Metadata = {
       alt: 'Ziady Mubaraq',
     }],
   },
-}
-
 };
 
 export default function RootLayout({
