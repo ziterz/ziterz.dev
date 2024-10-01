@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     name: 'Ziady Mubaraq',
     url: 'https://ziterz.dev/',
   }],
-  keywords: ['Full-Stack Engineer', 'Coding Mentor', 'HTML', 'CSS', 'Node.js', 'Express.js', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'React','React Native', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'GitHub', 'Jira', 'Hacktiv8', 'Lunash', 'Apple Developer Academy', 'Jakarta', 'Indonesia'],
+  keywords: ['Full-Stack Engineer', 'Coding Mentor', 'HTML', 'CSS', 'Node.js', 'Express.js', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'React', 'React Native', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'GitHub', 'Jira', 'Hacktiv8', 'Lunash', 'Apple Developer Academy', 'Jakarta', 'Indonesia'],
   themeColor: 'dark',
   viewport: 'width=device-width, initial-scale=1.0',
   robots: 'index, follow',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     images: [{
       url: "https://example.com/og.png",
     }],
-  ,}
+  },
   openGraph: {
     type: 'website',
     url: 'https://ziterz.dev/',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       alt: 'Ziady Mubaraq',
     }],
   },
-  }
+}
 
 };
 
