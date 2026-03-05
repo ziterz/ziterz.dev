@@ -31,7 +31,7 @@ export default function About() {
                   href="https://www.lunash.id/"
                   target="_blank"
                   className="text-white hover:line-through"
-                >Lunash</a></span>, focusing on developing web applications. At Lunash, we build <span className="text-white">AI-driven debt management solutions</span> and <span className="text-white">AI Chat Agents</span> that automate customer communication for financial institutions across Indonesia, including regional banks, rural banks, P2P lenders, multifinance companies, and debt collection agencies.
+                >Lunash</a></span>, focusing on developing SaaS applications. At Lunash, we build <span className="text-white">AI-driven debt management solutions</span> and <span className="text-white">AI Chat Agents</span> that automate customer communication for financial institutions across Indonesia, including regional banks, rural banks, P2P lenders, multifinance companies, and debt collection agencies.
                 <br />
                 <br />
                 Previously, I served as a <span className="text-white">Lead Phase Full-Stack JavaScript Instructor</span> at <span className="text-white"><a
