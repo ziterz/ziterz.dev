@@ -42,27 +42,11 @@ export default function Home() {
           </div>
         </main>
       </section>
-      <section className="px-4 md:px-[2%] text-center py-7">
-        <footer>
-          <div className="flex flex-col items-center justify-center ">
-            <div className="inline-flex items-center uppercase text-xs md:text-sm font-bold tracking-widest">
-              Made with{" "}
-              <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
-                <span>
-                  <Image
-                    src={"/next.svg"}
-                    alt="NextJS"
-                    width={55}
-                    height={32}
-                    radius="none"
-                  />
-                  <span className="sr-only">NextJS</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </section>
+      <footer className="p-4">
+        <p className="text-center text-sm text-neutral-400">
+          &copy; {new Date().getFullYear()}. All rights reserved.
+        </p>
+      </footer>
     </>
   );
 }
