@@ -50,16 +50,6 @@ export default function Home() {
               <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
                 <span>
                   <Image
-                    src={"/react.svg"}
-                    alt="ReactJS"
-                    width={32}
-                    height={32}
-                    radius="none"
-                  />
-                  <span className="sr-only">React</span>
-                </span>
-                <span>
-                  <Image
                     src={"/next.svg"}
                     alt="NextJS"
                     width={55}
@@ -67,16 +57,6 @@ export default function Home() {
                     radius="none"
                   />
                   <span className="sr-only">NextJS</span>
-                </span>
-                <span>
-                  <Image
-                    src={"/tailwindcss.svg"}
-                    alt="TailwindCSS"
-                    width={32}
-                    height={32}
-                    radius="none"
-                  />
-                  <span className="sr-only">TailwindCSS</span>
                 </span>
               </div>
             </div>
