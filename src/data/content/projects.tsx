@@ -108,9 +108,9 @@ export const projects: Project[] = [
     path: 'auto-agent',
     title: 'Auto Agent (2025)',
     desc: "<span class='text-red-500 font-medium'>Auto Agent</span> is Chrome Extension that automates data entry and application form filling for web-based forms.",
-    thumbnail: 'https://ik.imagekit.io/ziterz/autoagent-thumb.jpeg',
+    thumbnail: 'https://ik.imagekit.io/ziterz/auto-agent-thumb.jpeg',
     img: [
-      'https://ik.imagekit.io/ziterz/autoagent.jpeg'
+      'https://ik.imagekit.io/ziterz/auto-agent-1.jpeg'
     ],
     footer: 'Role: Full-Stack Developer',
   },
