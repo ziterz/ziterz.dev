@@ -10,13 +10,14 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Ziady Mubaraq',
-  description: 'Full-Stack Engineer, Coding Mentor',
+  description: 'Full-Stack Developer | AI Agents & Automation',
   applicationName: 'ziterz',
+  metadataBase: new URL('https://ziterz.dev'),
   authors: [{
     name: 'Ziady Mubaraq',
     url: 'https://ziterz.dev/',
   }],
-  keywords: ['Full-Stack Engineer', 'Coding Mentor', 'HTML', 'CSS', 'Node.js', 'Express.js', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'React', 'React Native', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'GitHub', 'Jira', 'Hacktiv8', 'Lunash', 'Apple Developer Academy', 'Jakarta', 'Indonesia'],
+  keywords: ['Full-Stack Developer', 'AI', 'AI Agents', 'Automation', 'Coding Mentor', 'HTML', 'CSS', 'Node.js', 'TypeScript', 'Tailwind CSS', 'React', 'React Native', 'Next.js', 'PostgreSQL', 'MySQL', 'MongoDB', 'Firebase', 'AWS', 'Docker', 'Git', 'GitHub'],
   robots: 'index, follow',
   openGraph: {
     type: 'website',

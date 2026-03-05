@@ -21,35 +21,35 @@ export default function About() {
               radius="none"
               loading="lazy"
             />
-            <div className="text-white px-2 md:px-0">
+            <div className="text-neutral-400 px-2 md:px-0">
               <p className="text-xl md:text-3xl py-10">
-                Hello! I&apos;m Ziady Mubaraq, a <span className="text-yellow-400">Full-Stack Engineer</span> based in{' '}
-                <span className="text-yellow-400">Jakarta</span>.
+                Hello! I&apos;m Ziady, a <span className="text-white">Full-Stack Developer</span> based in{' '}
+                <span className="text-white">Jakarta</span>.
                 <br />
                 <br />
-                Currently, I work at <span className="text-yellow-400"><a
+                Currently, I work at <span className="text-white"><a
                   href="https://www.lunash.id/"
                   target="_blank"
-                  className="text-yellow-400 hover:line-through"
-                >Lunash</a></span>, focusing on developing web applications. At Lunash, we provide <span className="text-yellow-400">AI-driven debt management solutions</span> to financial institutions in Indonesia of all sizes, including regional and rural banks, P2P lenders, multifinance companies, and debt collection agencies.
+                  className="text-white hover:line-through"
+                >Lunash</a></span>, focusing on developing web applications. At Lunash, we build <span className="text-white">AI-driven debt management solutions</span> and <span className="text-white">AI Chat Agents</span> that automate customer communication for financial institutions across Indonesia, including regional banks, rural banks, P2P lenders, multifinance companies, and debt collection agencies.
                 <br />
                 <br />
-                Previously, I served as a <span className="text-yellow-400">Lead Phase Full-Stack JavaScript Instructor</span> at <span className="text-yellow-400"><a
+                Previously, I served as a <span className="text-white">Lead Phase Full-Stack JavaScript Instructor</span> at <span className="text-white"><a
                   href="https://www.hacktiv8.com/"
                   target="_blank"
-                  className="text-yellow-400 hover:line-through"
-                >Hacktiv8</a></span> for 3+ years. I&apos;m also a graduate of the <span className="text-yellow-400"><a
+                  className="text-white hover:line-through"
+                >Hacktiv8</a></span> for 4+ years. I&apos;m also a graduate of the <span className="text-white"><a
                   href="https://www.developeracademy.infinitelearning.id/"
                   target="_blank"
-                  className="text-yellow-400 hover:line-through"
-                >Apple Developer Academy</a></span> Cohort 2023, where I gained deep expertise in various Apple frameworks and the Apple ecosystem, particularly in <span className="text-yellow-400">iOS development</span>.
+                  className="text-white hover:line-through"
+                >Apple Developer Academy</a></span> Cohort 2023, where I gained deep expertise in various Apple frameworks and the Apple ecosystem, particularly in <span className="text-white">iOS development</span>.
                 <br />
                 <br />
                 Let&apos;s connect at{' '}
                 <a
                   href="mailto:ziady.mubaraq@gmail.com"
                   target="_blank"
-                  className="text-yellow-400 hover:line-through"
+                  className="text-white hover:line-through"
                 >
                   ziady.mubaraq@gmail.com
                 </a>
@@ -60,7 +60,7 @@ export default function About() {
                   <a
                     href="https://github.com/ziterz"
                     target="_blank"
-                    className="text-yellow-400 hover:line-through"
+                    className="text-white hover:line-through"
                   >
                     GitHub
                   </a>
@@ -68,23 +68,23 @@ export default function About() {
                   <a
                     href="https://leetcode.com/ziterz"
                     target="_blank"
-                    className="text-yellow-400 hover:line-through"
+                    className="text-white hover:line-through"
                   >
                     LeetCode
                   </a>
                   ,{' '}
                   <a
-                    href="https://www.codewars.com/users/ziterz"
+                    href="https://www.youtube.com/@ziterz"
                     target="_blank"
-                    className="text-yellow-400 hover:line-through"
+                    className="text-white hover:line-through"
                   >
-                    Codewars
+                    YouTube
                   </a>
                   , and{' '}
                   <a
                     href="https://www.linkedin.com/in/ziterz"
                     target="_blank"
-                    className="text-yellow-400 hover:line-through"
+                    className="text-white hover:line-through"
                   >
                     LinkedIn
                   </a>

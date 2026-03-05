@@ -103,4 +103,15 @@ export const projects: Project[] = [
       "<div><span class='text-pink-500 font-medium'>Role:&nbsp;</span>iOS Developer, UI Designer, Artwork Creator</div><div><span class='text-pink-500 font-medium'>Responsibilities:</span><ul class='list-inside list-disc'><li>Create, develop, and balance game mechanics for a board game by experimenting with various popular and widely played board games.</li><li>Design artwork for various elements in the physical board game components, including the logo, role tokens, weapon card artwork, and character artwork, using Adobe Photoshop and Adobe Illustrator.</li><li>Create UI design by harmonizing and enhancing the elegance of the artwork for a game interface using Adobe Illustrator and Figma.</li><li>Develop a game by slicing the UI using SwiftUI and leveraging NFC technology through CoreNFC to integrate physical game components with the digital app.</li></ul></div><div><span class='text-pink-500 font-medium'>Tech stacks:</span><p>Swift, SwiftUI, CoreNFC, AVKit, MVVM Design Pattern.</p></div><div><span class='text-pink-500 font-medium'>Artwork & design tools:</span><p>Figma, Adobe Illustrator, Adobe Photoshop.</p></div><div><span class='text-pink-500 font-medium'>Achievements:</span><ul class='list-inside list-disc'><li>Successfully submitted the Riot Hybrid Board game to the App Store.</li><li>Enhanced user experience in playing the hybrid board game through three iterations in the game development.</li><li>Creating a replayable hybrid board game.</li></ul></div><div><p><span class='text-pink-500 font-medium'>Project Manager:&nbsp;</span>Febrina Yusuf</p><p><span class='text-pink-500 font-medium'>iOS Developer:&nbsp;</span>Ziady Mubaraq, Roli Bernanda, Sha Nia Siahaan</p><p><span class='text-pink-500 font-medium'>UI/UX Designer:&nbsp;</span>Tauhid Ananda, Ziady Mubaraq</p><p><span class='text-pink-500 font-medium'>Artwork Creator:&nbsp;</span>Ziady Mubaraq</p><p><span class='text-pink-500 font-medium'>Illustrator:&nbsp;</span>Amar Amzari</p></p><p>&nbsp;<p><span class='text-pink-500 font-medium'>Video Director and Editor:&nbsp;</span>Arandhitio Ballagi</p><p><span class='text-pink-500 font-medium'>Scriptwriter:&nbsp;</span>Febrina Yusuf</p><p><span class='text-pink-500 font-medium'>Motion Graphics:&nbsp;</span>Guntur Tri Saputra</p><p><span class='text-pink-500 font-medium'>Graphic Designer:&nbsp;</span>Igal Danger</p></div>",
     appstore: 'https://apps.apple.com/id/app/riot-board-game/id6470334811',
   },
+  {
+    id: 7,
+    path: 'auto-agent',
+    title: 'Auto Agent (2025)',
+    desc: "<span class='text-red-500 font-medium'>Auto Agent</span> is Chrome Extension that automates data entry and application form filling for web-based forms.",
+    thumbnail: 'https://ik.imagekit.io/ziterz/autoagent-thumb.jpeg',
+    img: [
+      'https://ik.imagekit.io/ziterz/autoagent.jpeg'
+    ],
+    footer: 'Role: Full-Stack Developer',
+  },
 ];
