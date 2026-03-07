@@ -10,7 +10,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Ziady Mubaraq',
-  description: 'Full-Stack Developer | AI Agents & Automation',
+  description: 'Full-Stack Developer | AI Automation',
   applicationName: 'ziterz',
   metadataBase: new URL('https://ziterz.dev'),
   authors: [{
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://ziterz.dev/',
     title: 'Ziady Mubaraq',
-    description: 'Full-Stack Engineer, Coding Mentor',
+    description: 'Full-Stack Developer | AI Automation',
     images: [{
       url: 'https://ik.imagekit.io/ziterz/ziady.jpg',
       width: 0,
